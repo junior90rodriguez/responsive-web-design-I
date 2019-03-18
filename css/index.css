@@ -169,13 +169,13 @@ header a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: auto;
 }
 
 @media(max-width: 800px){
     .one img {
         display: none;
-        width: 0;
+        width: 0S;
     }
 }
 
@@ -275,14 +275,15 @@ footer {
     footer div {
         display: flex;
         flex-direction: column;
-        
-
-    }
+    }  
 }
 
 footer a {
+    text-decoration: none;
     color: black;
 }
+
+
 
 .copyright {
     text-align: center;
